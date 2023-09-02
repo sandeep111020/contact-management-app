@@ -14,15 +14,11 @@ function App() {
   return (
  
       <Router>
-        <div >
         <NavBar/>
         <Routes>
           <Route path='/' Component={AllContactsScreen}/>
-          <Route path='/newContact' Component={NewContactScreen}/>
-          <Route path='/editContact' Component={EditContactScreen}/>
           <Route path='/mapsAndGraphs' Component={MapsAndGraphsScreen}/>
         </Routes>
-        </div>
         
       </Router>
 

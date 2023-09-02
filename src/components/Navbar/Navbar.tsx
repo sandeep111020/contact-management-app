@@ -10,12 +10,6 @@ const NavBar = ()=>{
                 <Link to='/'>
                     <li>Contacts</li>
                 </Link>
-                <Link to='/newContact'>
-                <li>NewContact</li>
-                </Link>
-                <Link to='/editContact'>
-                <li>EditContact</li>
-                </Link>
                 <Link to='/mapsAndGraphs'>
                 <li>Maps and Graphs</li>
                 </Link>
